@@ -1,0 +1,381 @@
+id,category,neighborhood,income_band,severity,date_reported,date_resolved,resolution_days,status,citizen_feedback
+1,pothole,Sector 4,medium,3,2026-03-04,2026-03-16,12,resolved,"Pothole filled with water, hard to see at night"
+2,pothole,Sector 1,low,2,2026-03-01,2026-04-01,31,resolved,"Massive pothole near bus stop, elderly people struggling"
+3,streetlight,Sector 3,medium,4,2026-05-31,2026-06-07,7,resolved,"Broken streetlight near park, safety concern at night"
+4,streetlight,Sector 2,low,3,2026-01-27,2026-01-28,1,resolved,"Broken streetlight near park, safety concern at night"
+5,pothole,Sector 4,medium,4,2026-05-18,2026-05-23,5,resolved,"Massive pothole near bus stop, elderly people struggling"
+6,garbage,Sector 4,medium,5,2026-02-19,2026-03-23,32,resolved,"Garbage not collected for 3 days, attracting stray animals"
+7,pothole,Sector 5,high,4,2026-03-13,2026-03-14,1,resolved,"Multiple potholes on residential street, damaging vehicles"
+8,garbage,Sector 2,low,1,2026-06-05,2026-06-22,17,resolved,Missed garbage pickup again this week
+9,road_damage,Sector 2,low,5,2026-02-26,2026-03-09,11,resolved,"Road markings completely faded, confusing for drivers"
+10,pothole,Sector 3,medium,2,2026-05-26,2026-06-07,12,resolved,"Massive pothole near bus stop, elderly people struggling"
+11,garbage,Sector 3,medium,2,2026-03-05,2026-03-19,14,resolved,Construction debris dumped on sidewalk blocking path
+12,streetlight,Sector 3,medium,2,2026-05-11,2026-05-17,6,resolved,Flickering streetlight causing visibility issues
+13,water_leak,Sector 5,high,5,2026-01-17,2026-01-19,2,resolved,"Fire hydrant leaking for days, water wasted"
+14,pothole,Sector 6,high,1,2026-06-24,2026-06-27,3,resolved,Large pothole on main road causing traffic issues
+15,streetlight,Sector 2,low,4,2026-01-01,2026-01-19,18,resolved,"Streetlight not working for 2 weeks, area is very dark"
+16,garbage,Sector 6,high,5,2026-06-05,2026-06-06,1,resolved,Construction debris dumped on sidewalk blocking path
+17,noise,Sector 6,high,3,2026-05-06,2026-05-09,3,resolved,Industrial noise from factory affecting residential area
+18,streetlight,Sector 2,low,5,2026-01-21,2026-01-25,4,resolved,Streetlight pole leaning dangerously after storm
+19,streetlight,Sector 5,high,4,2026-05-21,2026-05-25,4,resolved,Flickering streetlight causing visibility issues
+20,road_damage,Sector 6,high,2,2026-03-21,2026-03-24,3,resolved,Manhole cover missing on busy road
+21,water_leak,Sector 6,high,1,2026-03-05,2026-03-10,5,resolved,Water pressure very low in entire neighborhood
+22,streetlight,Sector 2,low,1,2026-01-19,2026-01-31,12,resolved,"Broken streetlight near park, safety concern at night"
+23,streetlight,Sector 1,low,3,2026-06-21,,,pending,Multiple streetlights out on entire block
+24,streetlight,Sector 5,high,1,2026-01-25,2026-01-30,5,resolved,Multiple streetlights out on entire block
+25,pothole,Sector 6,high,1,2026-01-16,2026-01-17,1,resolved,"Deep pothole near school zone, very dangerous for children"
+26,noise,Sector 1,low,4,2026-02-05,2026-02-24,19,resolved,Noise from late-night deliveries to nearby warehouse
+27,road_damage,Sector 1,low,5,2026-01-04,2026-01-23,19,resolved,Manhole cover missing on busy road
+28,water_leak,Sector 2,low,1,2026-02-12,2026-03-02,18,resolved,"Sewage backup in residential area, terrible smell"
+29,road_damage,Sector 2,low,5,2026-06-19,,,pending,Road caved in near drainage area
+30,pothole,Sector 5,high,3,2026-01-15,2026-01-19,4,resolved,"Pothole has been growing for weeks, no action taken"
+31,noise,Sector 6,high,2,2026-01-15,2026-01-17,2,resolved,Construction noise past 10 PM violating regulations
+32,road_damage,Sector 4,medium,2,2026-04-14,2026-04-21,7,resolved,Road surface crumbling after recent rains
+33,water_leak,Sector 4,medium,5,2026-05-25,2026-06-01,7,resolved,"Fire hydrant leaking for days, water wasted"
+34,water_leak,Sector 2,low,2,2026-06-21,,,pending,"Sewage backup in residential area, terrible smell"
+35,noise,Sector 4,medium,1,2026-01-19,2026-01-25,6,resolved,Construction noise past 10 PM violating regulations
+36,garbage,Sector 6,high,3,2026-02-10,2026-02-13,3,resolved,Construction debris dumped on sidewalk blocking path
+37,road_damage,Sector 6,high,5,2026-01-03,2026-01-04,1,resolved,"Road markings completely faded, confusing for drivers"
+38,pothole,Sector 1,low,5,2026-02-09,2026-03-03,22,resolved,"Multiple potholes on residential street, damaging vehicles"
+39,garbage,Sector 3,medium,1,2026-01-24,,,in_progress,"Overflowing community dumpster, bad smell in neighborhood"
+40,garbage,Sector 4,medium,2,2026-04-24,2026-04-28,4,resolved,Waste bins damaged and need replacement
+41,noise,Sector 6,high,1,2026-04-05,2026-04-07,2,resolved,Construction noise past 10 PM violating regulations
+42,pothole,Sector 2,low,3,2026-02-23,2026-03-16,21,resolved,"Pothole filled with water, hard to see at night"
+43,road_damage,Sector 6,high,2,2026-03-02,2026-03-04,2,resolved,Manhole cover missing on busy road
+44,road_damage,Sector 1,low,3,2026-04-16,2026-05-05,19,resolved,Uneven road surface causing accidents for two-wheelers
+45,pothole,Sector 1,low,4,2026-02-26,2026-03-20,22,resolved,"Deep pothole near school zone, very dangerous for children"
+46,road_damage,Sector 2,low,2,2026-04-13,2026-05-01,18,resolved,Road caved in near drainage area
+47,noise,Sector 3,medium,3,2026-01-08,2026-01-15,7,resolved,Industrial noise from factory affecting residential area
+48,noise,Sector 1,low,4,2026-03-30,2026-04-27,28,resolved,Noise from late-night deliveries to nearby warehouse
+49,pothole,Sector 1,low,4,2026-01-01,2026-01-18,17,resolved,"Massive pothole near bus stop, elderly people struggling"
+50,noise,Sector 6,high,3,2026-06-19,2026-06-22,3,resolved,Noise from late-night deliveries to nearby warehouse
+51,water_leak,Sector 2,low,3,2026-04-14,2026-04-30,16,resolved,"Sewage backup in residential area, terrible smell"
+52,streetlight,Sector 4,medium,5,2026-05-26,2026-05-30,4,resolved,Flickering streetlight causing visibility issues
+53,noise,Sector 3,medium,5,2026-06-17,2026-06-25,8,resolved,Generator noise from building affecting nearby homes
+54,pothole,Sector 1,low,3,2026-05-12,2026-05-26,14,resolved,"Deep pothole near school zone, very dangerous for children"
+55,streetlight,Sector 4,medium,2,2026-02-07,2026-02-09,2,resolved,Streetlight pole leaning dangerously after storm
+56,pothole,Sector 5,high,4,2026-04-17,2026-04-21,4,resolved,"Pothole filled with water, hard to see at night"
+57,streetlight,Sector 3,medium,2,2026-06-17,2026-06-23,6,resolved,Flickering streetlight causing visibility issues
+58,road_damage,Sector 1,low,5,2026-04-29,2026-05-01,2,resolved,Road surface crumbling after recent rains
+59,water_leak,Sector 3,medium,5,2026-05-24,2026-06-05,12,resolved,Drain blocked causing water accumulation on road
+60,water_leak,Sector 6,high,5,2026-04-25,2026-04-27,2,resolved,"Fire hydrant leaking for days, water wasted"
+61,road_damage,Sector 5,high,3,2026-05-14,2026-05-19,5,resolved,Road surface crumbling after recent rains
+62,streetlight,Sector 5,high,3,2026-03-27,2026-03-30,3,resolved,Flickering streetlight causing visibility issues
+63,road_damage,Sector 2,low,2,2026-06-30,,,in_progress,Manhole cover missing on busy road
+64,water_leak,Sector 1,low,4,2026-05-30,,,in_progress,"Sewage backup in residential area, terrible smell"
+65,garbage,Sector 1,low,3,2026-04-10,2026-05-05,25,resolved,Waste bins damaged and need replacement
+66,noise,Sector 3,medium,2,2026-05-05,2026-05-10,5,resolved,Generator noise from building affecting nearby homes
+67,water_leak,Sector 4,medium,2,2026-04-30,,,in_progress,"Sewage backup in residential area, terrible smell"
+68,road_damage,Sector 4,medium,1,2026-01-22,2026-02-02,11,resolved,"Road markings completely faded, confusing for drivers"
+69,streetlight,Sector 2,low,4,2026-03-25,2026-04-11,17,resolved,"Streetlight not working for 2 weeks, area is very dark"
+70,road_damage,Sector 3,medium,5,2026-01-14,2026-01-20,6,resolved,Uneven road surface causing accidents for two-wheelers
+71,pothole,Sector 1,low,2,2026-02-21,2026-03-12,19,resolved,"Massive pothole near bus stop, elderly people struggling"
+72,streetlight,Sector 1,low,4,2026-06-29,,,in_progress,"Streetlight not working for 2 weeks, area is very dark"
+73,garbage,Sector 4,medium,5,2026-06-23,2026-06-30,7,resolved,Waste bins damaged and need replacement
+74,streetlight,Sector 5,high,1,2026-06-28,,,pending,Streetlight pole leaning dangerously after storm
+75,garbage,Sector 5,high,5,2026-04-20,2026-04-25,5,resolved,"Garbage not collected for 3 days, attracting stray animals"
+76,water_leak,Sector 5,high,1,2026-04-21,2026-04-26,5,resolved,Drain blocked causing water accumulation on road
+77,streetlight,Sector 1,low,5,2026-06-16,,,in_progress,"No lighting on pedestrian crossing, very unsafe"
+78,garbage,Sector 4,medium,2,2026-01-23,2026-02-03,11,resolved,Waste bins damaged and need replacement
+79,pothole,Sector 2,low,4,2026-03-25,2026-04-11,17,resolved,"Pothole has been growing for weeks, no action taken"
+80,garbage,Sector 4,medium,5,2026-01-03,2026-01-10,7,resolved,Missed garbage pickup again this week
+81,streetlight,Sector 4,medium,4,2026-06-15,2026-06-19,4,resolved,Flickering streetlight causing visibility issues
+82,streetlight,Sector 3,medium,3,2026-06-19,,,in_progress,Multiple streetlights out on entire block
+83,noise,Sector 6,high,3,2026-04-01,2026-04-04,3,resolved,Loud music from commercial establishment every weekend
+84,streetlight,Sector 1,low,3,2026-01-31,2026-02-17,17,resolved,"No lighting on pedestrian crossing, very unsafe"
+85,road_damage,Sector 3,medium,5,2026-05-15,2026-05-23,8,resolved,"Road markings completely faded, confusing for drivers"
+86,pothole,Sector 1,low,5,2026-02-02,2026-02-23,21,resolved,"Pothole filled with water, hard to see at night"
+87,pothole,Sector 1,low,5,2026-03-14,2026-03-31,17,resolved,"Pothole filled with water, hard to see at night"
+88,pothole,Sector 1,low,4,2026-05-06,2026-05-07,1,resolved,"Pothole has been growing for weeks, no action taken"
+89,pothole,Sector 6,high,2,2026-01-31,2026-02-05,5,resolved,"Pothole has been growing for weeks, no action taken"
+90,noise,Sector 2,low,4,2026-04-26,2026-05-18,22,resolved,Construction noise past 10 PM violating regulations
+91,road_damage,Sector 4,medium,1,2026-02-23,2026-02-28,5,resolved,"Speed breaker too high, vehicles getting stuck"
+92,streetlight,Sector 4,medium,1,2026-04-15,,,in_progress,"Broken streetlight near park, safety concern at night"
+93,road_damage,Sector 4,medium,4,2026-01-19,2026-01-26,7,resolved,Road caved in near drainage area
+94,streetlight,Sector 2,low,3,2026-02-06,2026-02-08,2,resolved,Streetlight pole leaning dangerously after storm
+95,noise,Sector 5,high,3,2026-04-23,2026-04-30,7,resolved,Constant honking at intersection due to broken signal
+96,noise,Sector 6,high,5,2026-05-07,2026-05-08,1,resolved,Industrial noise from factory affecting residential area
+97,pothole,Sector 4,medium,1,2026-02-28,2026-03-04,4,resolved,"Massive pothole near bus stop, elderly people struggling"
+98,noise,Sector 5,high,1,2026-02-14,2026-02-18,4,resolved,Loud music from commercial establishment every weekend
+99,water_leak,Sector 6,high,4,2026-01-24,2026-01-25,1,resolved,Water main break flooding the street
+100,garbage,Sector 5,high,4,2026-06-27,2026-06-29,2,resolved,"Garbage not collected for 3 days, attracting stray animals"
+101,garbage,Sector 3,medium,3,2026-03-24,2026-04-06,13,resolved,"Garbage not collected for 3 days, attracting stray animals"
+102,noise,Sector 4,medium,4,2026-04-16,2026-04-21,5,resolved,Constant honking at intersection due to broken signal
+103,pothole,Sector 4,medium,2,2026-03-10,2026-03-21,11,resolved,"Pothole filled with water, hard to see at night"
+104,road_damage,Sector 1,low,5,2026-03-03,,,pending,Manhole cover missing on busy road
+105,road_damage,Sector 6,high,2,2026-05-08,2026-05-11,3,resolved,Manhole cover missing on busy road
+106,water_leak,Sector 5,high,2,2026-04-27,2026-05-03,6,resolved,Water pressure very low in entire neighborhood
+107,streetlight,Sector 5,high,1,2026-03-12,2026-03-16,4,resolved,Streetlight pole leaning dangerously after storm
+108,pothole,Sector 2,low,3,2026-03-18,2026-04-12,25,resolved,"Pothole filled with water, hard to see at night"
+109,garbage,Sector 3,medium,3,2026-05-22,2026-06-01,10,resolved,Waste bins damaged and need replacement
+110,water_leak,Sector 2,low,2,2026-04-16,2026-04-20,4,resolved,"Sewage backup in residential area, terrible smell"
+111,road_damage,Sector 3,medium,2,2026-05-07,2026-05-21,14,resolved,Road surface crumbling after recent rains
+112,water_leak,Sector 6,high,1,2026-05-15,2026-06-13,29,resolved,"Sewage backup in residential area, terrible smell"
+113,streetlight,Sector 6,high,1,2026-05-01,2026-05-06,5,resolved,"No lighting on pedestrian crossing, very unsafe"
+114,pothole,Sector 3,medium,3,2026-06-22,,,in_progress,"Pothole has been growing for weeks, no action taken"
+115,pothole,Sector 1,low,2,2026-06-11,2026-06-30,19,resolved,"Pothole filled with water, hard to see at night"
+116,road_damage,Sector 6,high,1,2026-04-24,2026-04-25,1,resolved,Road surface crumbling after recent rains
+117,pothole,Sector 2,low,3,2026-04-02,2026-04-25,23,resolved,"Deep pothole near school zone, very dangerous for children"
+118,pothole,Sector 1,low,5,2026-04-08,2026-04-24,16,resolved,"Multiple potholes on residential street, damaging vehicles"
+119,road_damage,Sector 3,medium,1,2026-04-30,2026-05-07,7,resolved,"Road markings completely faded, confusing for drivers"
+120,garbage,Sector 6,high,4,2026-06-26,2026-06-27,1,resolved,Missed garbage pickup again this week
+121,water_leak,Sector 1,low,5,2026-04-02,2026-04-23,21,resolved,Drain blocked causing water accumulation on road
+122,pothole,Sector 3,medium,5,2026-06-25,,,in_progress,"Multiple potholes on residential street, damaging vehicles"
+123,streetlight,Sector 5,high,5,2026-04-01,2026-04-02,1,resolved,"No lighting on pedestrian crossing, very unsafe"
+124,road_damage,Sector 5,high,2,2026-06-10,2026-06-11,1,resolved,"Road markings completely faded, confusing for drivers"
+125,pothole,Sector 5,high,5,2026-04-04,2026-04-06,2,resolved,"Massive pothole near bus stop, elderly people struggling"
+126,streetlight,Sector 3,medium,2,2026-05-19,2026-06-01,13,resolved,Flickering streetlight causing visibility issues
+127,water_leak,Sector 2,low,3,2026-03-28,2026-04-09,12,resolved,Persistent water leak from underground pipe
+128,road_damage,Sector 6,high,4,2026-05-23,2026-05-24,1,resolved,Road caved in near drainage area
+129,garbage,Sector 1,low,3,2026-05-30,,,pending,Missed garbage pickup again this week
+130,noise,Sector 1,low,3,2026-06-06,,,in_progress,Generator noise from building affecting nearby homes
+131,streetlight,Sector 3,medium,1,2026-01-10,2026-01-16,6,resolved,Streetlight pole leaning dangerously after storm
+132,water_leak,Sector 1,low,3,2026-06-21,,,pending,"Sewage backup in residential area, terrible smell"
+133,water_leak,Sector 4,medium,5,2026-04-15,2026-04-24,9,resolved,"Sewage backup in residential area, terrible smell"
+134,garbage,Sector 6,high,1,2026-06-25,2026-06-28,3,resolved,"Garbage not collected for 3 days, attracting stray animals"
+135,streetlight,Sector 3,medium,1,2026-04-27,2026-04-29,2,resolved,Streetlight pole leaning dangerously after storm
+136,pothole,Sector 6,high,3,2026-03-04,2026-03-06,2,resolved,Large pothole on main road causing traffic issues
+137,noise,Sector 5,high,2,2026-05-31,2026-06-04,4,resolved,Loud music from commercial establishment every weekend
+138,noise,Sector 5,high,1,2026-03-12,2026-03-15,3,resolved,Noise from late-night deliveries to nearby warehouse
+139,streetlight,Sector 2,low,1,2026-06-19,,,pending,Streetlight pole leaning dangerously after storm
+140,streetlight,Sector 2,low,3,2026-01-14,2026-01-27,13,resolved,Multiple streetlights out on entire block
+141,garbage,Sector 3,medium,5,2026-06-01,,,in_progress,Waste bins damaged and need replacement
+142,water_leak,Sector 3,medium,1,2026-01-16,2026-01-27,11,resolved,"Sewage backup in residential area, terrible smell"
+143,water_leak,Sector 5,high,1,2026-01-21,2026-01-24,3,resolved,"Fire hydrant leaking for days, water wasted"
+144,noise,Sector 4,medium,5,2026-03-25,2026-04-02,8,resolved,Noise from late-night deliveries to nearby warehouse
+145,road_damage,Sector 3,medium,1,2026-06-17,2026-06-25,8,resolved,"Speed breaker too high, vehicles getting stuck"
+146,water_leak,Sector 3,medium,4,2026-04-17,2026-04-27,10,resolved,"Fire hydrant leaking for days, water wasted"
+147,road_damage,Sector 6,high,4,2026-01-18,2026-01-19,1,resolved,Road surface crumbling after recent rains
+148,road_damage,Sector 3,medium,3,2026-02-03,2026-02-16,13,resolved,Uneven road surface causing accidents for two-wheelers
+149,garbage,Sector 1,low,4,2026-01-14,2026-02-06,23,resolved,"Overflowing community dumpster, bad smell in neighborhood"
+150,water_leak,Sector 1,low,2,2026-01-28,2026-02-12,15,resolved,Water pressure very low in entire neighborhood
+151,water_leak,Sector 2,low,5,2026-06-09,,,in_progress,Drain blocked causing water accumulation on road
+152,garbage,Sector 5,high,3,2026-01-02,2026-01-09,7,resolved,Missed garbage pickup again this week
+153,road_damage,Sector 1,low,1,2026-01-24,2026-02-18,25,resolved,"Speed breaker too high, vehicles getting stuck"
+154,road_damage,Sector 2,low,3,2026-05-26,2026-06-09,14,resolved,Road caved in near drainage area
+155,pothole,Sector 1,low,3,2026-04-24,2026-05-20,26,resolved,"Deep pothole near school zone, very dangerous for children"
+156,pothole,Sector 5,high,3,2026-04-21,2026-04-27,6,resolved,"Pothole filled with water, hard to see at night"
+157,garbage,Sector 3,medium,1,2026-02-26,2026-03-03,5,resolved,"Overflowing community dumpster, bad smell in neighborhood"
+158,garbage,Sector 5,high,3,2026-03-25,2026-03-30,5,resolved,"Overflowing community dumpster, bad smell in neighborhood"
+159,noise,Sector 1,low,2,2026-05-09,,,pending,Constant honking at intersection due to broken signal
+160,pothole,Sector 1,low,3,2026-05-28,2026-06-22,25,resolved,"Pothole filled with water, hard to see at night"
+161,garbage,Sector 1,low,2,2026-06-08,,,pending,Missed garbage pickup again this week
+162,streetlight,Sector 5,high,4,2026-05-31,2026-06-01,1,resolved,"Broken streetlight near park, safety concern at night"
+163,streetlight,Sector 2,low,1,2026-05-11,2026-05-27,16,resolved,"Broken streetlight near park, safety concern at night"
+164,road_damage,Sector 2,low,2,2026-03-02,2026-03-17,15,resolved,Uneven road surface causing accidents for two-wheelers
+165,road_damage,Sector 1,low,4,2026-04-29,2026-05-24,25,resolved,Uneven road surface causing accidents for two-wheelers
+166,water_leak,Sector 2,low,1,2026-05-01,2026-05-19,18,resolved,"Fire hydrant leaking for days, water wasted"
+167,garbage,Sector 3,medium,4,2026-04-26,2026-04-29,3,resolved,"Garbage not collected for 3 days, attracting stray animals"
+168,pothole,Sector 4,medium,5,2026-06-02,2026-06-14,12,resolved,"Massive pothole near bus stop, elderly people struggling"
+169,water_leak,Sector 6,high,5,2026-06-16,2026-06-20,4,resolved,Water main break flooding the street
+170,garbage,Sector 3,medium,1,2026-05-10,2026-06-18,39,resolved,Construction debris dumped on sidewalk blocking path
+171,streetlight,Sector 3,medium,3,2026-04-06,2026-04-16,10,resolved,"Streetlight not working for 2 weeks, area is very dark"
+172,road_damage,Sector 5,high,3,2026-01-17,2026-01-22,5,resolved,"Road markings completely faded, confusing for drivers"
+173,road_damage,Sector 2,low,5,2026-02-08,2026-02-21,13,resolved,Uneven road surface causing accidents for two-wheelers
+174,water_leak,Sector 4,medium,2,2026-06-02,2026-06-14,12,resolved,"Fire hydrant leaking for days, water wasted"
+175,road_damage,Sector 5,high,5,2026-01-24,2026-01-27,3,resolved,"Road markings completely faded, confusing for drivers"
+176,streetlight,Sector 2,low,3,2026-05-05,,,pending,Streetlight pole leaning dangerously after storm
+177,road_damage,Sector 5,high,5,2026-01-10,2026-01-15,5,resolved,Road caved in near drainage area
+178,streetlight,Sector 2,low,2,2026-06-27,,,in_progress,"Streetlight not working for 2 weeks, area is very dark"
+179,road_damage,Sector 3,medium,2,2026-04-24,2026-05-06,12,resolved,"Speed breaker too high, vehicles getting stuck"
+180,water_leak,Sector 2,low,2,2026-04-05,2026-04-29,24,resolved,"Fire hydrant leaking for days, water wasted"
+181,noise,Sector 5,high,5,2026-04-18,2026-04-23,5,resolved,Industrial noise from factory affecting residential area
+182,water_leak,Sector 1,low,3,2026-05-22,2026-06-19,28,resolved,"Fire hydrant leaking for days, water wasted"
+183,streetlight,Sector 1,low,3,2026-04-26,,,pending,Multiple streetlights out on entire block
+184,pothole,Sector 6,high,4,2026-01-14,2026-01-17,3,resolved,"Multiple potholes on residential street, damaging vehicles"
+185,garbage,Sector 2,low,1,2026-06-16,2026-06-27,11,resolved,Missed garbage pickup again this week
+186,streetlight,Sector 4,medium,4,2026-04-25,2026-04-29,4,resolved,Flickering streetlight causing visibility issues
+187,road_damage,Sector 3,medium,5,2026-05-16,2026-05-24,8,resolved,Road surface crumbling after recent rains
+188,road_damage,Sector 2,low,5,2026-04-28,2026-05-02,4,resolved,Road surface crumbling after recent rains
+189,noise,Sector 4,medium,2,2026-02-06,2026-03-14,36,resolved,Constant honking at intersection due to broken signal
+190,road_damage,Sector 1,low,1,2026-05-15,2026-06-12,28,resolved,Road caved in near drainage area
+191,water_leak,Sector 4,medium,4,2026-01-12,2026-01-20,8,resolved,"Fire hydrant leaking for days, water wasted"
+192,garbage,Sector 5,high,2,2026-06-18,2026-06-25,7,resolved,"Illegal dumping on vacant lot, health hazard"
+193,garbage,Sector 1,low,5,2026-03-28,2026-04-22,25,resolved,"Overflowing community dumpster, bad smell in neighborhood"
+194,water_leak,Sector 1,low,1,2026-03-17,2026-03-30,13,resolved,"Fire hydrant leaking for days, water wasted"
+195,noise,Sector 3,medium,4,2026-03-06,2026-03-08,2,resolved,Construction noise past 10 PM violating regulations
+196,garbage,Sector 6,high,3,2026-02-01,2026-02-05,4,resolved,Waste bins damaged and need replacement
+197,water_leak,Sector 3,medium,3,2026-02-17,2026-03-02,13,resolved,Water main break flooding the street
+198,pothole,Sector 5,high,4,2026-06-04,2026-06-06,2,resolved,Large pothole on main road causing traffic issues
+199,road_damage,Sector 1,low,3,2026-03-20,2026-04-06,17,resolved,"Road markings completely faded, confusing for drivers"
+200,road_damage,Sector 3,medium,3,2026-06-07,2026-06-12,5,resolved,Uneven road surface causing accidents for two-wheelers
+201,noise,Sector 3,medium,2,2026-01-08,,,in_progress,Construction noise past 10 PM violating regulations
+202,road_damage,Sector 2,low,3,2026-04-03,2026-04-17,14,resolved,"Road markings completely faded, confusing for drivers"
+203,pothole,Sector 2,low,5,2026-02-05,2026-02-23,18,resolved,Large pothole on main road causing traffic issues
+204,water_leak,Sector 5,high,5,2026-04-10,2026-04-11,1,resolved,"Sewage backup in residential area, terrible smell"
+205,noise,Sector 2,low,3,2026-06-27,,,pending,Construction noise past 10 PM violating regulations
+206,road_damage,Sector 3,medium,4,2026-01-23,2026-02-02,10,resolved,Uneven road surface causing accidents for two-wheelers
+207,noise,Sector 1,low,3,2026-03-18,2026-04-04,17,resolved,Noise from late-night deliveries to nearby warehouse
+208,streetlight,Sector 2,low,2,2026-03-02,2026-04-13,42,resolved,Multiple streetlights out on entire block
+209,noise,Sector 5,high,2,2026-06-06,2026-06-11,5,resolved,Generator noise from building affecting nearby homes
+210,noise,Sector 5,high,4,2026-04-15,2026-04-16,1,resolved,Construction noise past 10 PM violating regulations
+211,road_damage,Sector 3,medium,5,2026-03-30,2026-04-12,13,resolved,"Speed breaker too high, vehicles getting stuck"
+212,streetlight,Sector 5,high,4,2026-05-09,2026-05-10,1,resolved,Flickering streetlight causing visibility issues
+213,streetlight,Sector 2,low,3,2026-02-27,2026-03-18,19,resolved,"Broken streetlight near park, safety concern at night"
+214,noise,Sector 1,low,3,2026-02-02,2026-02-16,14,resolved,Loud music from commercial establishment every weekend
+215,noise,Sector 4,medium,2,2026-02-13,2026-02-22,9,resolved,Noise from late-night deliveries to nearby warehouse
+216,pothole,Sector 1,low,1,2026-01-12,2026-02-01,20,resolved,"Pothole has been growing for weeks, no action taken"
+217,road_damage,Sector 3,medium,1,2026-05-08,2026-05-17,9,resolved,Uneven road surface causing accidents for two-wheelers
+218,water_leak,Sector 3,medium,1,2026-06-26,2026-06-30,4,resolved,"Sewage backup in residential area, terrible smell"
+219,noise,Sector 2,low,2,2026-03-22,2026-04-12,21,resolved,Loud music from commercial establishment every weekend
+220,noise,Sector 5,high,5,2026-01-28,2026-01-30,2,resolved,Loud music from commercial establishment every weekend
+221,pothole,Sector 1,low,3,2026-04-09,2026-04-26,17,resolved,"Pothole has been growing for weeks, no action taken"
+222,streetlight,Sector 5,high,2,2026-05-08,2026-05-12,4,resolved,Multiple streetlights out on entire block
+223,water_leak,Sector 1,low,5,2026-04-28,,,in_progress,Water pressure very low in entire neighborhood
+224,road_damage,Sector 6,high,4,2026-03-15,2026-03-18,3,resolved,"Road markings completely faded, confusing for drivers"
+225,water_leak,Sector 5,high,3,2026-01-12,2026-01-15,3,resolved,"Fire hydrant leaking for days, water wasted"
+226,pothole,Sector 4,medium,4,2026-05-10,2026-05-15,5,resolved,Large pothole on main road causing traffic issues
+227,garbage,Sector 3,medium,5,2026-04-04,2026-04-17,13,resolved,"Garbage not collected for 3 days, attracting stray animals"
+228,streetlight,Sector 1,low,3,2026-05-02,2026-05-30,28,resolved,Streetlight pole leaning dangerously after storm
+229,water_leak,Sector 2,low,5,2026-03-18,2026-04-11,24,resolved,Water main break flooding the street
+230,road_damage,Sector 2,low,1,2026-04-17,2026-04-27,10,resolved,"Road markings completely faded, confusing for drivers"
+231,noise,Sector 6,high,5,2026-02-28,2026-03-01,1,resolved,Generator noise from building affecting nearby homes
+232,water_leak,Sector 5,high,2,2026-06-24,,,pending,Persistent water leak from underground pipe
+233,garbage,Sector 1,low,4,2026-02-08,2026-03-07,27,resolved,Waste bins damaged and need replacement
+234,road_damage,Sector 5,high,2,2026-05-13,2026-05-20,7,resolved,Manhole cover missing on busy road
+235,garbage,Sector 3,medium,2,2026-04-28,2026-05-08,10,resolved,Waste bins damaged and need replacement
+236,road_damage,Sector 4,medium,3,2026-06-06,2026-06-14,8,resolved,"Speed breaker too high, vehicles getting stuck"
+237,garbage,Sector 6,high,3,2026-06-30,,,in_progress,"Illegal dumping on vacant lot, health hazard"
+238,road_damage,Sector 4,medium,3,2026-03-15,2026-03-25,10,resolved,Manhole cover missing on busy road
+239,streetlight,Sector 5,high,3,2026-01-11,2026-01-15,4,resolved,Multiple streetlights out on entire block
+240,road_damage,Sector 4,medium,4,2026-02-24,2026-03-08,12,resolved,"Speed breaker too high, vehicles getting stuck"
+241,road_damage,Sector 1,low,5,2026-03-03,2026-03-31,28,resolved,Road surface crumbling after recent rains
+242,garbage,Sector 1,low,4,2026-01-26,2026-02-11,16,resolved,Missed garbage pickup again this week
+243,streetlight,Sector 3,medium,3,2026-03-24,2026-03-30,6,resolved,Flickering streetlight causing visibility issues
+244,road_damage,Sector 3,medium,1,2026-02-14,2026-02-19,5,resolved,Manhole cover missing on busy road
+245,streetlight,Sector 5,high,3,2026-01-10,2026-01-15,5,resolved,Streetlight pole leaning dangerously after storm
+246,garbage,Sector 1,low,3,2026-04-27,2026-05-24,27,resolved,"Overflowing community dumpster, bad smell in neighborhood"
+247,water_leak,Sector 5,high,3,2026-02-19,2026-02-26,7,resolved,"Sewage backup in residential area, terrible smell"
+248,road_damage,Sector 4,medium,2,2026-01-04,2026-01-11,7,resolved,Uneven road surface causing accidents for two-wheelers
+249,water_leak,Sector 6,high,5,2026-03-25,2026-03-26,1,resolved,Persistent water leak from underground pipe
+250,water_leak,Sector 6,high,3,2026-03-05,2026-03-09,4,resolved,Persistent water leak from underground pipe
+251,garbage,Sector 3,medium,3,2026-03-19,2026-03-28,9,resolved,Waste bins damaged and need replacement
+252,road_damage,Sector 2,low,1,2026-04-30,2026-05-19,19,resolved,Uneven road surface causing accidents for two-wheelers
+253,garbage,Sector 6,high,3,2026-06-07,2026-06-11,4,resolved,"Overflowing community dumpster, bad smell in neighborhood"
+254,noise,Sector 3,medium,3,2026-04-17,2026-04-30,13,resolved,Loud music from commercial establishment every weekend
+255,road_damage,Sector 5,high,5,2026-01-21,2026-01-24,3,resolved,Road caved in near drainage area
+256,noise,Sector 1,low,5,2026-02-21,,,pending,Generator noise from building affecting nearby homes
+257,pothole,Sector 4,medium,5,2026-04-25,2026-05-07,12,resolved,"Pothole has been growing for weeks, no action taken"
+258,water_leak,Sector 1,low,3,2026-01-06,2026-01-24,18,resolved,Water main break flooding the street
+259,road_damage,Sector 3,medium,1,2026-05-19,2026-05-25,6,resolved,Manhole cover missing on busy road
+260,water_leak,Sector 1,low,2,2026-02-04,2026-03-01,25,resolved,"Sewage backup in residential area, terrible smell"
+261,water_leak,Sector 3,medium,4,2026-01-21,2026-02-03,13,resolved,"Fire hydrant leaking for days, water wasted"
+262,noise,Sector 1,low,4,2026-05-16,2026-05-28,12,resolved,Constant honking at intersection due to broken signal
+263,noise,Sector 4,medium,4,2026-05-17,2026-05-28,11,resolved,Industrial noise from factory affecting residential area
+264,road_damage,Sector 1,low,1,2026-01-09,2026-01-21,12,resolved,Road surface crumbling after recent rains
+265,pothole,Sector 1,low,4,2026-06-03,2026-06-22,19,resolved,"Deep pothole near school zone, very dangerous for children"
+266,pothole,Sector 3,medium,2,2026-05-09,2026-05-23,14,resolved,"Pothole has been growing for weeks, no action taken"
+267,garbage,Sector 5,high,2,2026-03-19,2026-03-25,6,resolved,"Overflowing community dumpster, bad smell in neighborhood"
+268,garbage,Sector 3,medium,1,2026-05-23,2026-05-30,7,resolved,Missed garbage pickup again this week
+269,pothole,Sector 4,medium,3,2026-06-14,2026-06-23,9,resolved,"Pothole filled with water, hard to see at night"
+270,water_leak,Sector 1,low,2,2026-05-18,2026-06-08,21,resolved,Persistent water leak from underground pipe
+271,pothole,Sector 5,high,5,2026-04-16,2026-04-17,1,resolved,"Deep pothole near school zone, very dangerous for children"
+272,garbage,Sector 2,low,1,2026-04-26,,,in_progress,Waste bins damaged and need replacement
+273,pothole,Sector 4,medium,1,2026-02-18,2026-03-02,12,resolved,"Deep pothole near school zone, very dangerous for children"
+274,garbage,Sector 6,high,3,2026-01-04,2026-01-05,1,resolved,Waste bins damaged and need replacement
+275,water_leak,Sector 6,high,2,2026-06-28,2026-06-30,2,resolved,Water pressure very low in entire neighborhood
+276,garbage,Sector 2,low,4,2026-04-30,2026-05-17,17,resolved,Missed garbage pickup again this week
+277,road_damage,Sector 3,medium,4,2026-03-23,,,in_progress,"Speed breaker too high, vehicles getting stuck"
+278,pothole,Sector 5,high,3,2026-05-22,2026-05-27,5,resolved,"Multiple potholes on residential street, damaging vehicles"
+279,garbage,Sector 1,low,2,2026-04-08,2026-04-30,22,resolved,Missed garbage pickup again this week
+280,road_damage,Sector 6,high,4,2026-04-28,2026-04-29,1,resolved,Uneven road surface causing accidents for two-wheelers
+281,streetlight,Sector 3,medium,5,2026-06-14,2026-06-20,6,resolved,"No lighting on pedestrian crossing, very unsafe"
+282,pothole,Sector 1,low,4,2026-02-05,2026-02-21,16,resolved,"Pothole filled with water, hard to see at night"
+283,noise,Sector 2,low,5,2026-05-04,2026-06-15,42,resolved,Construction noise past 10 PM violating regulations
+284,road_damage,Sector 1,low,3,2026-05-18,2026-06-25,38,resolved,"Speed breaker too high, vehicles getting stuck"
+285,pothole,Sector 1,low,5,2026-02-08,2026-02-27,19,resolved,"Pothole filled with water, hard to see at night"
+286,water_leak,Sector 1,low,4,2026-05-25,2026-06-15,21,resolved,Drain blocked causing water accumulation on road
+287,pothole,Sector 5,high,4,2026-04-08,2026-04-14,6,resolved,"Massive pothole near bus stop, elderly people struggling"
+288,water_leak,Sector 1,low,4,2026-06-15,2026-06-30,15,resolved,Drain blocked causing water accumulation on road
+289,water_leak,Sector 6,high,3,2026-01-12,2026-01-15,3,resolved,Water pressure very low in entire neighborhood
+290,pothole,Sector 4,medium,2,2026-03-22,2026-03-24,2,resolved,"Massive pothole near bus stop, elderly people struggling"
+291,pothole,Sector 5,high,3,2026-02-11,2026-02-16,5,resolved,"Massive pothole near bus stop, elderly people struggling"
+292,garbage,Sector 6,high,4,2026-02-05,2026-02-06,1,resolved,Waste bins damaged and need replacement
+293,pothole,Sector 6,high,1,2026-04-22,2026-04-27,5,resolved,"Pothole has been growing for weeks, no action taken"
+294,water_leak,Sector 6,high,3,2026-01-08,2026-01-12,4,resolved,"Sewage backup in residential area, terrible smell"
+295,noise,Sector 2,low,4,2026-04-21,2026-05-13,22,resolved,Industrial noise from factory affecting residential area
+296,road_damage,Sector 5,high,1,2026-01-22,2026-01-29,7,resolved,"Speed breaker too high, vehicles getting stuck"
+297,garbage,Sector 5,high,3,2026-01-28,2026-01-31,3,resolved,Missed garbage pickup again this week
+298,garbage,Sector 2,low,1,2026-02-03,2026-02-07,4,resolved,Construction debris dumped on sidewalk blocking path
+299,pothole,Sector 3,medium,1,2026-01-23,2026-02-06,14,resolved,"Pothole filled with water, hard to see at night"
+300,water_leak,Sector 1,low,4,2026-01-22,2026-02-10,19,resolved,Persistent water leak from underground pipe
+301,garbage,Sector 1,low,3,2026-05-07,2026-05-27,20,resolved,Missed garbage pickup again this week
+302,garbage,Sector 5,high,3,2026-03-05,2026-03-11,6,resolved,"Overflowing community dumpster, bad smell in neighborhood"
+303,streetlight,Sector 3,medium,3,2026-01-02,2026-01-16,14,resolved,"Broken streetlight near park, safety concern at night"
+304,water_leak,Sector 3,medium,5,2026-02-04,2026-02-12,8,resolved,Persistent water leak from underground pipe
+305,garbage,Sector 6,high,3,2026-06-27,2026-06-29,2,resolved,"Illegal dumping on vacant lot, health hazard"
+306,water_leak,Sector 2,low,3,2026-01-30,2026-02-14,15,resolved,Water pressure very low in entire neighborhood
+307,road_damage,Sector 1,low,4,2026-02-23,2026-03-08,13,resolved,"Speed breaker too high, vehicles getting stuck"
+308,streetlight,Sector 4,medium,3,2026-06-18,2026-06-28,10,resolved,Streetlight pole leaning dangerously after storm
+309,water_leak,Sector 3,medium,5,2026-05-10,2026-05-21,11,resolved,"Fire hydrant leaking for days, water wasted"
+310,noise,Sector 4,medium,5,2026-06-13,2026-06-20,7,resolved,Industrial noise from factory affecting residential area
+311,noise,Sector 1,low,1,2026-05-25,2026-06-18,24,resolved,Industrial noise from factory affecting residential area
+312,water_leak,Sector 6,high,1,2026-01-03,2026-01-05,2,resolved,Water pressure very low in entire neighborhood
+313,noise,Sector 5,high,5,2026-06-26,2026-06-29,3,resolved,Generator noise from building affecting nearby homes
+314,noise,Sector 4,medium,2,2026-03-30,2026-04-07,8,resolved,Construction noise past 10 PM violating regulations
+315,road_damage,Sector 1,low,2,2026-03-31,2026-04-18,18,resolved,"Road markings completely faded, confusing for drivers"
+316,water_leak,Sector 3,medium,4,2026-03-23,2026-03-24,1,resolved,Water main break flooding the street
+317,garbage,Sector 1,low,1,2026-06-23,,,pending,Construction debris dumped on sidewalk blocking path
+318,noise,Sector 1,low,4,2026-04-29,2026-05-16,17,resolved,Constant honking at intersection due to broken signal
+319,road_damage,Sector 3,medium,5,2026-02-20,2026-02-25,5,resolved,"Speed breaker too high, vehicles getting stuck"
+320,road_damage,Sector 2,low,1,2026-05-28,2026-06-12,15,resolved,"Speed breaker too high, vehicles getting stuck"
+321,garbage,Sector 3,medium,4,2026-05-16,2026-05-27,11,resolved,Construction debris dumped on sidewalk blocking path
+322,garbage,Sector 1,low,4,2026-06-08,2026-06-29,21,resolved,"Illegal dumping on vacant lot, health hazard"
+323,garbage,Sector 1,low,1,2026-02-16,2026-03-12,24,resolved,"Overflowing community dumpster, bad smell in neighborhood"
+324,water_leak,Sector 4,medium,2,2026-05-05,2026-05-11,6,resolved,"Sewage backup in residential area, terrible smell"
+325,streetlight,Sector 2,low,3,2026-04-26,2026-05-06,10,resolved,Flickering streetlight causing visibility issues
+326,noise,Sector 5,high,5,2026-06-17,2026-06-19,2,resolved,Constant honking at intersection due to broken signal
+327,pothole,Sector 3,medium,5,2026-01-08,2026-01-13,5,resolved,"Pothole has been growing for weeks, no action taken"
+328,water_leak,Sector 2,low,5,2026-05-07,2026-05-19,12,resolved,"Fire hydrant leaking for days, water wasted"
+329,pothole,Sector 3,medium,4,2026-05-20,2026-05-28,8,resolved,Large pothole on main road causing traffic issues
+330,garbage,Sector 3,medium,1,2026-04-23,2026-05-01,8,resolved,Waste bins damaged and need replacement
+331,garbage,Sector 4,medium,5,2026-06-11,2026-06-18,7,resolved,"Garbage not collected for 3 days, attracting stray animals"
+332,noise,Sector 4,medium,3,2026-06-02,2026-06-10,8,resolved,Industrial noise from factory affecting residential area
+333,noise,Sector 6,high,1,2026-02-04,2026-02-05,1,resolved,Industrial noise from factory affecting residential area
+334,streetlight,Sector 6,high,2,2026-03-05,2026-03-07,2,resolved,"No lighting on pedestrian crossing, very unsafe"
+335,streetlight,Sector 3,medium,5,2026-06-11,2026-06-23,12,resolved,"Streetlight not working for 2 weeks, area is very dark"
+336,road_damage,Sector 3,medium,3,2026-06-27,,,in_progress,Road caved in near drainage area
+337,road_damage,Sector 1,low,1,2026-04-28,2026-05-12,14,resolved,Manhole cover missing on busy road
+338,water_leak,Sector 2,low,2,2026-05-07,2026-05-27,20,resolved,Persistent water leak from underground pipe
+339,water_leak,Sector 4,medium,3,2026-06-24,,,in_progress,Water main break flooding the street
+340,streetlight,Sector 1,low,4,2026-04-27,2026-05-01,4,resolved,"No lighting on pedestrian crossing, very unsafe"
+341,road_damage,Sector 6,high,3,2026-02-10,2026-02-11,1,resolved,Uneven road surface causing accidents for two-wheelers
+342,pothole,Sector 2,low,3,2026-06-20,,,in_progress,"Massive pothole near bus stop, elderly people struggling"
+343,streetlight,Sector 4,medium,4,2026-06-17,,,in_progress,Multiple streetlights out on entire block
+344,noise,Sector 1,low,2,2026-05-13,2026-06-17,35,resolved,Constant honking at intersection due to broken signal
+345,water_leak,Sector 4,medium,1,2026-02-28,2026-03-05,5,resolved,"Fire hydrant leaking for days, water wasted"
+346,streetlight,Sector 6,high,4,2026-02-04,2026-02-05,1,resolved,Streetlight pole leaning dangerously after storm
+347,road_damage,Sector 1,low,2,2026-04-23,2026-05-09,16,resolved,Road caved in near drainage area
+348,streetlight,Sector 4,medium,1,2026-01-26,2026-02-05,10,resolved,Multiple streetlights out on entire block
+349,streetlight,Sector 2,low,2,2026-03-12,2026-03-31,19,resolved,"No lighting on pedestrian crossing, very unsafe"
+350,road_damage,Sector 1,low,3,2026-02-22,2026-03-18,24,resolved,Road surface crumbling after recent rains
+351,streetlight,Sector 5,high,4,2026-04-09,2026-04-14,5,resolved,Streetlight pole leaning dangerously after storm
+352,pothole,Sector 6,high,3,2026-03-23,2026-03-28,5,resolved,"Pothole filled with water, hard to see at night"
+353,road_damage,Sector 2,low,2,2026-05-01,2026-05-11,10,resolved,Road surface crumbling after recent rains
+354,pothole,Sector 2,low,1,2026-04-12,2026-05-05,23,resolved,"Pothole filled with water, hard to see at night"
+355,noise,Sector 1,low,5,2026-06-07,2026-06-21,14,resolved,Loud music from commercial establishment every weekend
+356,water_leak,Sector 3,medium,5,2026-06-12,2026-06-18,6,resolved,"Sewage backup in residential area, terrible smell"
+357,streetlight,Sector 5,high,1,2026-03-04,2026-03-08,4,resolved,"Streetlight not working for 2 weeks, area is very dark"
+358,noise,Sector 3,medium,1,2026-03-21,2026-03-28,7,resolved,Generator noise from building affecting nearby homes
+359,pothole,Sector 1,low,2,2026-05-08,2026-05-28,20,resolved,"Deep pothole near school zone, very dangerous for children"
+360,garbage,Sector 5,high,1,2026-01-08,2026-01-14,6,resolved,"Garbage not collected for 3 days, attracting stray animals"
+361,noise,Sector 2,low,1,2026-05-08,2026-06-02,25,resolved,Loud music from commercial establishment every weekend
+362,garbage,Sector 2,low,1,2026-05-27,,,pending,"Overflowing community dumpster, bad smell in neighborhood"
+363,garbage,Sector 1,low,4,2026-02-08,2026-02-20,12,resolved,"Overflowing community dumpster, bad smell in neighborhood"
+364,road_damage,Sector 3,medium,3,2026-03-11,2026-03-17,6,resolved,Road surface crumbling after recent rains
+365,noise,Sector 1,low,1,2026-04-13,2026-04-17,4,resolved,Industrial noise from factory affecting residential area
+366,noise,Sector 2,low,4,2026-01-03,2026-01-22,19,resolved,Noise from late-night deliveries to nearby warehouse
+367,streetlight,Sector 6,high,5,2026-03-04,2026-03-05,1,resolved,Streetlight pole leaning dangerously after storm
+368,road_damage,Sector 2,low,1,2026-03-27,2026-03-31,4,resolved,Uneven road surface causing accidents for two-wheelers
+369,streetlight,Sector 2,low,5,2026-03-02,,,pending,Streetlight pole leaning dangerously after storm
+370,garbage,Sector 3,medium,4,2026-01-22,2026-02-02,11,resolved,Construction debris dumped on sidewalk blocking path
+371,road_damage,Sector 1,low,2,2026-03-02,2026-03-26,24,resolved,Uneven road surface causing accidents for two-wheelers
+372,water_leak,Sector 2,low,3,2026-03-01,2026-03-03,2,resolved,Water pressure very low in entire neighborhood
+373,pothole,Sector 1,low,2,2026-04-26,2026-05-19,23,resolved,"Deep pothole near school zone, very dangerous for children"
+374,water_leak,Sector 3,medium,3,2026-01-31,2026-02-03,3,resolved,Drain blocked causing water accumulation on road
+375,streetlight,Sector 4,medium,3,2026-02-07,2026-02-09,2,resolved,Multiple streetlights out on entire block
+376,road_damage,Sector 3,medium,3,2026-03-08,2026-03-19,11,resolved,Road caved in near drainage area
+377,streetlight,Sector 5,high,1,2026-04-29,2026-05-01,2,resolved,"Streetlight not working for 2 weeks, area is very dark"
+378,streetlight,Sector 1,low,2,2026-02-20,2026-03-06,14,resolved,"Broken streetlight near park, safety concern at night"
+379,pothole,Sector 6,high,1,2026-01-17,2026-01-19,2,resolved,Large pothole on main road causing traffic issues
+380,garbage,Sector 6,high,1,2026-01-11,2026-01-16,5,resolved,Missed garbage pickup again this week
