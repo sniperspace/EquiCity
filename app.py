@@ -346,10 +346,10 @@ with st.sidebar:
     st.markdown("## ⚡ Control Panel")
 
     api_key = st.text_input(
-        "🔑 Gemini API Key",
+        "🔑 AI API Key (Groq)",
         type="password",
-        help="Get your free API key from aistudio.google.com",
-        placeholder="Paste your API key...",
+        help="Get your free API key from console.groq.com",
+        placeholder="Paste your Groq API key...",
     )
 
     if api_key and st.session_state.gemini_client is None:
