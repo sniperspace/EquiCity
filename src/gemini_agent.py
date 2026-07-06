@@ -213,7 +213,7 @@ def run_agent_query(client, chat_history: list, user_query: str) -> tuple:
         iteration += 1
 
         response = client.models.generate_content(
-            model="gemini-2.0-flash",
+            model="gemini-2.0-flash-lite",
             contents=chat_history,
             config=types.GenerateContentConfig(
                 system_instruction=SYSTEM_PROMPT,
