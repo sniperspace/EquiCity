@@ -212,14 +212,24 @@ def run_agent_query(client, chat_history: list, user_query: str) -> tuple:
     while iteration < max_iterations:
         iteration += 1
 
-        response = client.models.generate_content(
-            model="gemini-2.0-flash-lite",
-            contents=chat_history,
-            config=types.GenerateContentConfig(
-                system_instruction=SYSTEM_PROMPT,
-                tools=tools,
-            ),
-        )
+        import time
+
+        for attempt in range(3):
+            try:
+                response = client.models.generate_content(
+                    model="gemini-2.0-flash",
+                    contents=chat_history,
+                    config=types.GenerateContentConfig(
+                        system_instruction=SYSTEM_PROMPT,
+                        tools=tools,
+                    ),
+                )
+                break
+            except Exception as e:
+                if "429" in str(e) and attempt < 2:
+                    time.sleep(30)
+                    continue
+                raise e
 
         # Check if there are function calls
         has_function_call = False
