@@ -14,6 +14,7 @@ from src.fairness import compute_fairness_scores, get_disparity_report, get_reco
 
 def tool_query_complaints(neighborhood="", category="", status="", min_severity=0):
     df = load_complaints()
+    min_severity = int(min_severity) if min_severity else 0
     filtered = filter_complaints(
         df,
         neighborhood=neighborhood if neighborhood else None,
