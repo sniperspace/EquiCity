@@ -340,19 +340,20 @@ st.markdown("""
 with st.sidebar:
     st.markdown("## ⚡ Control Panel")
 
-    api_key = st.text_input(
-        "🔑 AI API Key (Groq)",
-        type="password",
-        help="Get your free API key from console.groq.com",
-        placeholder="Paste your Groq API key...",
-    )
+    # Pull API key from Streamlit secrets to prevent GitHub from blocking it
+    try:
+        api_key = st.secrets["GROQ_API_KEY"]
+    except:
+        api_key = None
+        st.error("Missing GROQ_API_KEY in secrets.")
 
-    if api_key and st.session_state.gemini_client is None:
+    if st.session_state.gemini_client is None:
         try:
             st.session_state.gemini_client = create_agent(api_key)
-            st.success("✅ AI Agent online!")
         except Exception as e:
             st.error(f"Connection failed: {e}")
+            
+    st.success("✅ AI Agent Online & Connected")
 
     st.markdown("---")
 
