@@ -28,16 +28,7 @@ st.set_page_config(
 # --- Premium CSS ---
 st.markdown("""
 <style>
-    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
 
-    /* Global */
-    html, body, [class*="st-"] {
-        font-family: 'Inter', sans-serif;
-    }
-    /* Prevent icon font override */
-    i, .stIconMaterial, .material-symbols-rounded {
-        font-family: 'Material Symbols Rounded' !important;
-    }
     .block-container {
         padding-top: 1rem;
         padding-bottom: 1rem;
@@ -474,8 +465,8 @@ with tab1:
             font=dict(color="rgba(255,255,255,0.7)", size=12),
             height=380,
             showlegend=True,
-            legend=dict(orientation="h", yanchor="bottom", y=1.15, font=dict(size=11)),
-            margin=dict(l=0, r=20, t=80, b=0),
+            legend=dict(orientation="h", yanchor="top", y=-0.2, font=dict(size=11)),
+            margin=dict(l=0, r=20, t=50, b=0),
             xaxis=dict(gridcolor="rgba(255,255,255,0.04)"),
         )
         fig1.update_traces(
@@ -588,8 +579,8 @@ with tab1:
             height=350,
             xaxis=dict(gridcolor="rgba(255,255,255,0.04)"),
             yaxis=dict(gridcolor="rgba(255,255,255,0.04)"),
-            legend=dict(orientation="h", yanchor="bottom", y=1.15),
-            margin=dict(l=0, r=0, t=80, b=0),
+            legend=dict(orientation="h", yanchor="top", y=-0.2),
+            margin=dict(l=0, r=0, t=50, b=0),
         )
         st.plotly_chart(fig4, width="stretch")
 
