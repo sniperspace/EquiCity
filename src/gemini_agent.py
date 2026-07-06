@@ -85,7 +85,7 @@ TOOLS = [
                     "neighborhood": {"type": "string", "description": "Filter by neighborhood (e.g., 'Sector 1')"},
                     "category": {"type": "string", "description": "Filter by category (pothole, streetlight, garbage, water_leak, noise, road_damage)"},
                     "status": {"type": "string", "description": "Filter by status (resolved, pending, in_progress)"},
-                    "min_severity": {"type": "integer", "description": "Minimum severity level (1-5)"},
+                    "min_severity": {"type": "string", "description": "Minimum severity level (1-5)"},
                 },
             },
         },
