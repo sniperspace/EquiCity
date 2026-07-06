@@ -196,8 +196,15 @@ def run_agent_query(client, chat_history: list, user_query: str) -> tuple:
                 functions_called.append({"function": fn_name, "args": fn_args})
 
                 if fn_name in TOOL_FUNCTIONS:
-                    result = TOOL_FUNCTIONS[fn_name](**fn_args)
-                    data_cited[fn_name] = json.loads(result)
+                    try:
+                        import inspect
+                        sig = inspect.signature(TOOL_FUNCTIONS[fn_name])
+                        valid_args = {k: v for k, v in fn_args.items() if k in sig.parameters}
+                        result = TOOL_FUNCTIONS[fn_name](**valid_args)
+                        data_cited[fn_name] = json.loads(result)
+                    except Exception as e:
+                        result = json.dumps({"error": f"Function execution failed: {str(e)}"})
+                        data_cited[fn_name] = {"error": str(e)}
                 else:
                     result = json.dumps({"error": f"Unknown function: {fn_name}"})
 
