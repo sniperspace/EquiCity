@@ -217,7 +217,7 @@ def run_agent_query(client, chat_history: list, user_query: str) -> tuple:
         for attempt in range(3):
             try:
                 response = client.models.generate_content(
-                    model="gemini-1.5-flash",
+                    model="gemini-2.0-flash",
                     contents=chat_history,
                     config=types.GenerateContentConfig(
                         system_instruction=SYSTEM_PROMPT,
