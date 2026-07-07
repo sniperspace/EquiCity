@@ -52,21 +52,6 @@ EquiCity is an **AI-powered Equity Intelligence Platform** that:
 | Charts | Plotly | Free |
 | Hosting | Streamlit Community Cloud | Free |
 
-## Setup & Run
-
-```bash
-# 1. Clone the repository
-git clone <repo-url>
-cd GenAI-Academy-APAC
-
-# 2. Install dependencies
-pip install -r requirements.txt
-
-# 3. Run the app
-streamlit run app.py
-```
-
-
 ## Future Roadmap
 
 With more time and resources, EquiCity could scale to:
