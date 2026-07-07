@@ -66,7 +66,6 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-Then enter your **free Gemini API key** (get one at [aistudio.google.com](https://aistudio.google.com)) in the sidebar.
 
 ## Future Roadmap
 
